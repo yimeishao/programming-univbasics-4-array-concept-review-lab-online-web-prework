@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-array.each 
+array.each do 
 result = array[0]
 p result
     end
