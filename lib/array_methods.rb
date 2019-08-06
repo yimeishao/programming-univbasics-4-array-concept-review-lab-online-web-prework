@@ -8,6 +8,6 @@ array.sort!
   end 
   
 def find_min_value(array)
-array.sort
-return array[1]
+array.sort!
+return array[0]
 end
